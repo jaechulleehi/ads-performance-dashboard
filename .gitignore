@@ -1,0 +1,17 @@
+# allow-list: only the dashboard project is tracked; everything else in this folder stays local
+*
+!.gitignore
+!README.md
+!AGENTS.md
+!app.py
+!pipeline.py
+!requirements.txt
+!requirements-dev.txt
+!tests/
+!tests/*.py
+!docs/
+!docs/*.md
+!*_channel.csv
+!*_appsflyer.csv
+__pycache__/
+.env
